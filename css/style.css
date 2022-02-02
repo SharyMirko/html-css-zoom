@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+body {
+    background-color: black;
+
+}
+
+header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+span i {
+    background-color: transparent;
+}
+
+header span {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 0.2em;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    height: 85vh;
+}
+
+.user {
+    background: url("https://picsum.photos/300/200") no-repeat;
+    background-size: cover;
+    width: 12vw;
+    height: 9vw;
+    margin: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.user span {
+    background-color: rgb(74, 74, 74, 0.8);
+    padding: 0.3em;
+    width: 35%;
+    color: white;
+}
+
+.user span i {
+    margin-right: .3em;
+}
+
+footer {
+    background-color: #222;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i {
+    background-color: transparent;
+    font-size: 2em;
+}
+
+#green {
+    color: yellowgreen;
+}
+
+.footer-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.btn i {
+    align-self: center;
+}
+
+.footer-btn p {
+    align-self: flex-end;
+}
+
+.footer-btn span i {
+    font-size: 10px;
+}
+
+.btn {
+ display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+    background-color: #696763;
+}
+
+.btn-end span {
+    color: red;
+}
