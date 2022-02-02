@@ -52,6 +52,10 @@ main {
     justify-content: flex-end;
 }
 
+.user:hover {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDH4WisdXdXYkLa0o1SzjFZSEtB4rW2CmSAw&usqp=CAU");
+}
+
 .user span {
     background-color: rgb(74, 74, 74, 0.8);
     padding: 0.3em;
